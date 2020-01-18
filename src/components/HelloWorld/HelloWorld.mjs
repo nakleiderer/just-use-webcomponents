@@ -9,7 +9,11 @@ class HelloWorld extends HTMLElement {
   constructor() {
     super();
     this.attachShadow({ mode: "open" });
-    this.shadowRoot.appendChild(template.content.cloneNode(true));
+    this.shadowRoot.appendChild(this.template.content.cloneNode(true));
+  }
+
+  get template() {
+    return template;
   }
 }
 
