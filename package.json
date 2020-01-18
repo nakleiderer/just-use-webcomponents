@@ -1,0 +1,32 @@
+{
+  "name": "just-use-webcomponents",
+  "version": "0.0.1",
+  "description": "Advancing the web platform for developers and end users by eliminating the barriers of adoption for Web Components and related web platform standards.",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "http-server": "^0.12.1"
+  },
+  "scripts": {
+    "start": "npx http-server --port 3030 ./src/",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nakleiderer/just-use-webcomponents.git"
+  },
+  "author": {
+    "name": "Nicolas Kleiderer",
+    "email": "nakleiderer@gmail.com",
+    "url": "https://kleiderer.com"
+  },
+  "contributors": [],
+  "license": "GPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/nakleiderer/just-use-webcomponents/issues"
+  },
+  "homepage": "https://github.com/nakleiderer/just-use-webcomponents#readme"
+}

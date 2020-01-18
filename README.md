@@ -17,3 +17,7 @@ Reduce or eliminate dependence on frameworks, heavy libraries, and complicated b
 ### Progressive Enhancement
 
 Leverage progressive enhancement strategies. Provide a minimally useful experience for antiquated browsers. Provide a modern and performant experience for users of updated browsers. Notify users of aging browsers their experience is degraded and encourage them to upgrade.
+
+## Contributing
+
+Please read the [contributing documentation](.github/CONTRIBUTING.md) for more information.
